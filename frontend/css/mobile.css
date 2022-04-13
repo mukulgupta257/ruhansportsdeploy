@@ -1,0 +1,342 @@
+@media only screen and (max-width: 480px){
+    header{
+        width: 100vw;
+        display: flex;
+        padding: 0% 1%;
+    }
+    header > a{
+        width: 20%;
+    }
+    #ground-head{
+        display: none;
+    }
+    #nav-bar{
+        width: 75%;
+        justify-content: center;
+        gap: 5%;
+    }
+    main{
+        width: 100vw;
+    }
+    #cartlink{
+        position: fixed;
+        bottom: 7vh;
+        right: 2vw;
+        display: none;
+    }
+    #footer-desc > img{
+        display: none;
+    }
+    #social{
+        display: none;
+    }
+    #contact-us{
+        width: 50%;
+    }
+    #contact-us > li:last-of-type{
+        width: 100%;
+    }
+    #support{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    footer{
+        display: flex;
+        height: 5vh;
+        align-items: center;
+        justify-content: center;
+    }
+    .container-homepage{
+        height: 100vh;
+        animation: none;
+    }
+    .desc{
+        height: 70%;
+        display: flex;
+        flex-direction: column;
+        gap: 1%;
+    }
+    .desc > ul{
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        gap: 2%;
+    }
+    .desc > ul:first-of-type{
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        gap: 2%;
+    }
+    .container-homepage >a{
+        width: 50%;
+    }
+    .booknow{
+        width: 60%;
+        height: 10%;
+        font-size: 1.5rem;
+    }
+    .day-at-container {
+        width: 100%;
+        height: 90%;
+    }
+    .label{
+        margin: 2vh 0vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 3rem;
+    }
+    .label > span{
+        text-align: center;
+    }
+    .day-at-star-shine{
+        align-items: center;
+    }
+    .about{
+        flex-direction: column;
+        height: 600px;
+    }
+    .about > p{
+        width: 100%;
+    }
+    .about > img{
+        width: 100%;
+    }
+    .YoutubeIntegrated{
+        flex-direction: column;
+        height: 900px;
+    }
+    iframe {
+        height: 22%;
+        width: 80%;
+    }
+    .teams-index{
+        height: 1500px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .team-card{
+        width: 100%;
+    }
+    .team-card > img{
+        width: 40%;
+    }
+
+    /* Login Screen */
+    .form-container{
+        background-size: cover;
+    }
+    #signin-form{
+        width: 90%;
+    }
+    .form-items{
+        width: 100%;
+    }
+    /* Register form */
+    #register-form{
+        width: 90%;
+    }
+    /* contact us */
+    #Contact-page{
+        width: 100vw;
+        height: 1200px;
+        flex-direction: column;
+    }
+    #contact-us{
+        width: 100%;
+    }
+    #contact-us > p{
+        width: 100%;
+        padding: 2%;
+        text-align: center;
+    }
+    #my-form{
+        height: 70%;
+        width: 80%;
+        padding: 1%;
+    }
+    #map-div{
+        width: 90%;
+        height: 90%;
+    }
+    #Contact-page > #map-div > a > img {
+        width: 100%;
+        height: 100%;
+        border: 1px solid #c0c0c0;
+        border-radius: 5px
+    ;
+    }
+    /* products page */
+    .products{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .products > li{
+        width: 100%;
+    }
+    .black-layer > span{
+        text-align: center;
+    }
+    /* dashboard styling */
+    .dashboard{
+        width: 100vw;
+    }
+    .dashboard-menu{
+        min-width: 40%;
+    }
+    .dashboard-content{
+        width: 60%;
+    }
+    .summary-dashboard{
+        display: flex;
+        flex-direction: column;
+        height: 80%;
+    }
+    .summary-dashboard > li {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    .summary-title{
+        min-width: 80%;
+    }
+    #user-profile{
+        width: 40%;
+    }
+    /* product page */
+    .content{
+        flex-direction: column;
+        align-items: center;
+        height: 100vh;
+    }
+    .image-sidebar{
+        display: flex;
+        flex-direction: row;
+        height: 10rem;
+        width: 100%;
+    }
+    .details{
+        width: 100%;
+        height:60%;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .detail-img{
+        width: 100%;
+        height: 60%;
+    }
+    .details-info{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .image-sidebar >img {
+        border: 1px solid #000;
+        width: 6rem;
+        height: 5rem;
+    }
+    .detail-action{
+        width: 80%;
+        margin: 20px 0%;
+    }
+    .cart{
+        width: 100vw;
+        flex-direction: column;
+        align-items: center;
+    }
+    .cart-list{
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    .cart-action{
+        width: 70%;
+        height: 10rem;
+    }
+    #shopping-form{
+        width: 100%;
+    }
+    #payment-form{
+        width: 100%;
+    }
+    .placeorder-parent{
+        flex-direction: column;
+        width: 100%;
+    }
+    .place-order{
+        width: 100%;
+    }
+    .order-action{
+        width: 100%;
+    }
+    #order_id{
+        padding: 0%;
+        font-size: 1.8rem;
+    }
+    
+.review-container-parent{
+    max-width: 100vw;
+    padding: 0% 1% ;
+    margin-bottom: 15px;
+}
+.review-container-parent > hr{
+    width: 100%;
+    margin: 5px 0px;
+}
+.review{
+    list-style: none;
+}
+.review > li{
+    width: 100%;
+    word-wrap: break-word;
+    margin: 15px 0px;
+    border-bottom:1px solid  #c0c0c0;
+    padding: 1% 0%;
+}
+.review-form-container{
+    list-style: none;
+}
+.writeReview{
+    margin: 10px 0px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.review-form-container{
+    display: flex;
+    height: 80%;
+    flex-direction: column;
+    gap: 10px;
+}
+.review-form-container textarea{
+    width: 500px;
+    height: 70px;
+}
+.review-form-container select{
+    width: 100px;
+    height: 30px;
+}
+.review-form-container button{
+    width: 150px;
+    height: 30px;
+    font-size: 1.2rem;
+}
+/* shop page styling */
+#shop{
+    flex-direction: column;
+}
+.category{
+    width: 100%;
+    display: flex;
+    overflow-y:scroll;
+}
+.products{
+    width: 100%;
+}
+}
